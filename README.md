@@ -1,49 +1,77 @@
-# 👨‍💻 Ericles (loweri)
-### Data Engineer | Data Architecture & ETL Pipelines
+# 👨‍💻 Ericles Fernandes Oliveira (loweri)
+### Data Engineer | Distributed Data Lakehouse & Cloud Data Architectures
 *(Bilingual Profile: [Português](#-português) | [English](#-english))*
 
 ---
 
 ## 🇧🇷 Português
 
-Desenvolvendo pipelines de dados escaláveis, resilientes e orientadas a valor de negócio. Foco em arquitetura de dados (Medallion & Kimball), modelagem dimensional e automação de fluxos de dados.
+Engenheiro de Dados focado no desenvolvimento de pipelines de dados resilientes, escaláveis e orientados a valor de negócio. Especialista na implementação da **Arquitetura Medalhão** (Bronze, Silver e Gold), processamento distribuído massivo com **PySpark & Delta Lake (ACID + Time Travel)**, modelagem dimensional **Star Schema (Kimball)** em nuvem e orquestração automatizada com **Apache Airflow**.
+
+---
 
 ### 🛠️ Tech Stack & Ferramentas
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-00ADD8?style=for-the-badge&logo=delta&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supabase-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-### ⚡ Projetos em Destaque
+---
 
-- 📊 **[Financial ETL Pipeline](https://github.com/loweri/financial-etl-pipeline):** Ingestão de cotações financeiras via `yfinance`, aplicação de indicadores técnicos com **Pandas** e organização em Arquitetura Medalhão (Bronze & Silver).
-- ✈️ **[ETL Aeroporto GRU](https://github.com/loweri/engenharia-dados-aeroporto-gru-ETL):** Pipeline de extração e tratamento de dados operacionais aeroportuários.
-- ₿ **[Databricks BTC](https://github.com/loweri/Databricks_BTC):** Análise e ingestão de dados de Bitcoin utilizando ambiente Databricks.
+### ⚡ Projetos em Destaque (Produção)
+
+1. 🚀 **[Financial Data Lakehouse Distribuído](https://github.com/loweri/datalake-pyspark)**
+   - Plataforma completa sob a **Arquitetura Medalhão** processando dados do mercado global (B3 e Nasdaq).
+   - Ingestão com Schema Enforcement estrito (`StructType`), processamento distribuído com **PySpark** e armazenamento colunar ACID em **Delta Lake** com *Partition Pruning*.
+   - Orquestração em lote via **Apache Airflow 3** (Lazy Imports) com execução em 56s e suíte de testes unitários com **Pytest**.
+
+2. 📊 **[Financial ETL Pipeline & Cloud Data Warehouse](https://github.com/loweri/financial-etl-pipeline)**  
+   *🌐 [Acesse o Dashboard Interativo ao Vivo](https://financial-etl-dw.streamlit.app)*
+   - Pipeline ETL automatizado consumindo APIs financeiras com tratamento universal de fusos horários (UTC).
+   - Data Warehouse na nuvem (**Supabase / PostgreSQL**) modelado em **Star Schema Kimball** com garantia de carga idempotente (`ON CONFLICT DO UPDATE`).
+   - Data App analítico interativo em produção via **Streamlit & Plotly** com visualização de Candlestick e KPIs.
+
+3. 📜 **[Compendium: Codex do Engenheiro de Dados](https://github.com/loweri/codexv1)**  
+   *🌐 [Acesse o App PWA no Ar](https://loweri.github.io/codexv1)*
+   - Aplicação Web progressiva (PWA 100% offline) gamificada para gestão de aprendizado contínuo em Engenharia de Dados.
+   - Árvore de habilidades com +60 competências, sistema de XP/KP, temporizador Pomodoro integrado e múltiplos temas visuais.
 
 ---
 
 ## 🇺🇸 English
 
-Building scalable, resilient, and business-driven data pipelines. Focused on modern data architecture (Medallion & Kimball), dimensional modeling, and end-to-end data workflow automation.
-
-### 🛠️ Tech Stack & Tools
-
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-### ⚡ Featured Projects
-
-- 📊 **[Financial ETL Pipeline](https://github.com/loweri/financial-etl-pipeline):** Market data ingestion via `yfinance`, technical indicators using **Pandas**, organized under Medallion Architecture (Bronze & Silver).
-- ✈️ **[GRU Airport ETL](https://github.com/loweri/engenharia-dados-aeroporto-gru-ETL):** Extraction and processing pipeline for airport operational data.
-- ₿ **[Databricks BTC](https://github.com/loweri/Databricks_BTC):** Bitcoin data ingestion and analytical exploration in Databricks.
+Data Engineer focused on building resilient, scalable, and business-driven data platforms. Specialized in the **Medallion Architecture** (Bronze, Silver, and Gold), massive distributed computing with **PySpark & Delta Lake (ACID + Time Travel)**, cloud-based **Kimball Star Schema** dimensional modeling, and workflow orchestration via **Apache Airflow**.
 
 ---
 
-📫 **Connect / Contatos:** [LinkedIn](https://linkedin.com) · [GitHub](https://github.com/loweri)
+### ⚡ Featured Production Projects
+
+1. 🚀 **[Distributed Financial Data Lakehouse](https://github.com/loweri/datalake-pyspark)**
+   - End-to-end **Medallion Lakehouse** processing global market data (B3 & Nasdaq).
+   - Strict Schema Enforcement (`StructType`), distributed computing engine via **PySpark**, and ACID storage on **Delta Lake** with partition pruning.
+   - Orchestrated with **Apache Airflow 3** (Lazy Imports) and validated through isolated **Pytest** Spark fixtures.
+
+2. 📊 **[Financial ETL Pipeline & Cloud Data Warehouse](https://github.com/loweri/financial-etl-pipeline)**  
+   *🌐 [Live Interactive Dashboard](https://financial-etl-dw.streamlit.app)*
+   - Automated financial ETL pipeline with universal timezone normalization (UTC).
+   - Cloud Data Warehouse on **Supabase / PostgreSQL** modeled following **Kimball's Star Schema** with idempotent UPSERTs.
+   - Production analytics dashboard powered by **Streamlit & Plotly** with real-time KPI metrics and Candlestick charts.
+
+3. 📜 **[Compendium: Data Engineer's Codex](https://github.com/loweri/codexv1)**  
+   *🌐 [Live PWA Application](https://loweri.github.io/codexv1)*
+   - RPG-inspired Progressive Web App (PWA 100% offline) gamifying continuous learning in Data Engineering.
+   - Skill tree with 60+ competencies, dual XP/KP progression, built-in Pomodoro focus timer, and custom themes.
+
+---
+
+### 📫 Conecte-se comigo / Connect with me:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ericlesoliveira/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/loweri)
